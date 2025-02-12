@@ -42,7 +42,7 @@ export default function Services() {
             <SwiperSlide key={index}>
               <div className="w-[300px] mx-auto">
                 <Service
-                  title={`Шотатам бла-блабла${index + 1}`}
+                  title={`Якась інформація${index + 1}`}
                   img={Service1}
                 />
               </div>

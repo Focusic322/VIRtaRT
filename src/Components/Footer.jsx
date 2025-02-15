@@ -11,7 +11,7 @@ import Instagram from "../assets/logos/Instagram.svg";
 export default function Footer() {
   return (
     <footer className="bg-darkBlue pt-8 max-xl:pl-4 max-xl:pr-4">
-      <div className="flex items-center justify-evenly max-xl:grid max-xl:justify-normal  max-xl:gap-4">
+            <div className="flex items-center justify-evenly max-xl:grid max-xl:justify-normal  max-xl:gap-4">
         <div className="flex items-center  gap-2 border-purpleBlue border-2 pt-4 pb-4 pr-14 pl-7 rounded-l max-sm:pl-4 max-sm:pr-6">
           <div className="flex justify-center">
             <img
@@ -37,7 +37,7 @@ export default function Footer() {
             <img
               src={mail}
               alt="Телефон"
-              className="pt-[19px] pb-[19px] pr-[18px] pl-[18px] bg-blue max-sm:pr-2 max-sm:pl-2 max-sm:pt-2 max-sm:pb-2"
+              className="pt-[19px] pb-[19px] pr-[18px] pl-[18px] bg-blue max-sm:pr-2 max-sm:pl-2 max-sm:pt-2 max-sm:pb-2 max-xss:w-10"
             />
           </div>
           <div className="pt-serif-bold grid items-center text-white">

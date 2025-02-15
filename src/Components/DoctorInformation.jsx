@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import doctorsData from "../data/doctors";
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollToTop from "../Ui/ScrollToTop";
 
 export default function DoctorInformation() {
   const { id } = useParams();
@@ -15,6 +16,7 @@ export default function DoctorInformation() {
   return (
     <div>
       <Header />
+      <ScrollToTop />
       <div className="flex items-center pb-8 gap-8 max-xl:grid max-xl:justify-center max-xl:text-center">
         <div className="grid gap-4 text-center pr-14 pl-14 pt-8 pb-8 max-sm:pl-7 max-sm:pr-7 items-center max-xl:pb-0">
           <div className="flex justify-center w-full">

@@ -53,6 +53,14 @@
   .custom-pagination__testimonials .swiper-pagination-bullet-active {
     background-color: #232f66;
   }
+
+  @media (max-width: 450px) {
+    .custom-pagination .swiper-pagination-bullet,
+    .custom-pagination__testimonials .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+    }
+  }
   
   .swiper-container {
     width: 100%;

@@ -5,12 +5,13 @@ import Information from "./Components/Information";
 import Services from "./Components/Services";
 import Testimonials from "./Components/Testimonials";
 import Welcome from "./Components/Welcome";
-// Відділення інтервенційної радіології та реперфузійної терапії it`s welcome page...
+import ScrollToTop from "./Ui/ScrollToTop";
 
 function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Welcome />
       <div className="pt-serif-regular">
         <Services />

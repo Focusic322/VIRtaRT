@@ -2,12 +2,14 @@ import React from 'react'
 import Header from '../Components/Header'
 import Footer from "../Components/Footer";
 import WorkPhoto from "../assets/imges/WorkPhoto.jpg";
+import ScrollToTop from '../Ui/ScrollToTop';
 
 
 export default function AboutUs() {
   return (
     <div>
         <Header />
+        <ScrollToTop />
         <div className='flex gap-2 max-xl:grid'>
           <div className='w-[70%] pl-14  max-sm:pl-7 max-xl:pr-14 max-sm:pr-7 pt-6 pb-4 max-xl:grid max-xl:text-center max-xl:w-full max-xl:justify-center'>
             <h4 className='text-black text-2xl pb-4'>Загальна інформація</h4>

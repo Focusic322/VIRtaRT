@@ -3,10 +3,38 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import Service1 from "./../assets/imges/Service1.jpg";
+import Коронографія from "./../assets/imges/Коронографія.jpg";
+import Стентування from "./../assets/imges/Стентування.jpg";
+import Ехокардіографія from "./../assets/imges/Ехокардіографія.jpg";
+import ТрансторакальнаЕхографія from "./../assets/imges/ТрансторакальнаЕхографія.jpg";
+import ЕКГ from "./../assets/imges/ЕКГ.jpg";
+import АТ from "./../assets/imges/АТ.jpg";
+import АортокоронарнеШунтування from "./../assets/imges/АортокоронарнеШунтування.jpg";
+import Протезування from "./../assets/imges/Протезування.jpg";
+import ШВР from "./../assets/imges/ШВР.jpg";
+import CRTD from "./../assets/imges/CRTD.jpg";
+import Кардіовертер from "./../assets/imges/Кардіовертер.avif";
+import ЦеребральнаАнгіографія from "./../assets/imges/ЦеребральнаАнгіографія.png";
+
+
 import Service from "../Ui/Service";
 
 export default function Services() {
+  const services = [
+    { title: "Коронографія серця", img: Коронографія },
+    { title: "Стентування коронарних артерій", img: Стентування },
+    { title: "Трансезофагеальна ехокардіографія", img: Ехокардіографія },
+    { title: "Трансторакальна ехокардіографія", img: ТрансторакальнаЕхографія },
+    { title: "Холтерівське моніторування ЕКГ", img: ЕКГ },
+    { title: "Холтерівське моніторування АТ", img: АТ },
+    { title: "Аортокоронарне шунтування", img: АортокоронарнеШунтування },
+    { title: "Протезування клапанів серця", img: Протезування },
+    { title: "Імплантація ШВР", img: ШВР },
+    { title: "Імплантація CRTD", img: CRTD },
+    { title: "Імплантація кардіовертера-дефібрилятора", img: Кардіовертер },
+    { title: "Церебральна ангіографія", img: ЦеребральнаАнгіографія },
+  ];
+
   return (
     <div className="pt-10">
       <div className="flex justify-center items-center text-center pb-6">
@@ -38,13 +66,10 @@ export default function Services() {
             1200: { slidesPerView: 3, centeredSlides: false },
           }}
         >
-          {[...Array(6)].map((_, index) => (
+          {services.map((service, index) => (
             <SwiperSlide key={index}>
               <div className="w-[300px] mx-auto">
-                <Service
-                  title={`Якась інформація${index + 1}`}
-                  img={Service1}
-                />
+                <Service title={service.title} img={service.img} />
               </div>
             </SwiperSlide>
           ))}

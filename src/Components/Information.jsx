@@ -34,6 +34,7 @@ export default function Information() {
           </div>
         </div>
       </div>
+      <div className="w-full h-2 bg-yellow"></div>
     </div>
   );
 }

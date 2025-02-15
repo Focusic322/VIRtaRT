@@ -15,7 +15,7 @@ export default function Testimonials() {
           modules={[Pagination, Autoplay]}
           pagination={{ el: ".custom-pagination__testimonials", clickable: true }}
           resizeObserver={true}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 10000, disableOnInteraction: false }}
           spaceBetween={20}
           slidesPerView={2}
           centeredSlides={false}

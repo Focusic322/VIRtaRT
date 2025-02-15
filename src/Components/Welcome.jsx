@@ -15,13 +15,13 @@ export default function Welcome() {
           коронарний синдром з елевацією сегмента ST в режимі 24/7/365
         </span>
         <div className="pb-8">
-          <Button title="Дізнатися більше" />
+          <Button title="Дізнатися більше" link={"/aboutUs"}/>
         </div>
       </div>
       <img
         src={WelcomePhoto}
         alt=""
-        className="rounded-lg max-xl:w-1/2 max-md:!w-[100%]"
+        className="rounded-lg max-xl:w-1/2 max-md:!w-[100%] max-md:rounded-none"
       />
     </div>
   );

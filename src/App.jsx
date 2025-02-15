@@ -1,4 +1,5 @@
 import Abstract from "./Components/Abstract";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Information from "./Components/Information";
 import Services from "./Components/Services";
@@ -16,6 +17,7 @@ function App() {
         <Abstract />
         <Testimonials />
         <Information />
+        <Footer />
       </div>
     </>
   );

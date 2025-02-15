@@ -7,6 +7,8 @@ export default {
   theme: {
     colors: {
       darkBlue: "#232f66",
+      purpleBlue: "#3A478D",
+      blue: "#053B8C",
       yellow: "#dea94d",
       gray: "#b3b4b3",
       darkGray: "#606161",

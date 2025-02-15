@@ -5,6 +5,7 @@ import Facebook from "../assets/logos/Facebook.svg";
 import Instagram from "../assets/logos/Instagram.svg";
 import Viber from "../assets/logos/Viber.svg";
 import Phone from "../assets/logos/Phone.svg";
+import { Link } from "react-router";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -35,13 +36,13 @@ export default function Header() {
         <div className="fixed w-full h-full top-0 left-0 flex items-center justify-center bg-darkBlue">
           <ul className="flex flex-col items-center gap-6">
             <li className="text-2xl text-white">
-              <a href="">Головна сторінка</a>
+              <Link to="/">Головна сторінка</Link>
             </li>
             <li className="text-2xl text-white">
-              <a href="">Про нас</a>
+              <Link to="/aboutUs">Про нас</Link>
             </li>
             <li className="text-2xl text-white">
-              <a href="">Лікарі</a>
+              <Link to="/doctors">Лікарі</Link>
             </li>
           </ul>
         </div>
@@ -98,7 +99,7 @@ export default function Header() {
           <ul className="flex items-center gap-2 max-md:justify-center">
             <li>
               <a
-                href="https://www.facebook.com/share/1AkQWXgvCt/"
+                href="https://www.facebook.com/virtartcml"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -160,13 +161,13 @@ export default function Header() {
       <div className="bg-darkBlue justify-center">
         <ul className="flex justify-around items-center pl-4 pr-4 pt-8 pb-8 max-sm:hidden">
           <li className="text-xl text-white hover:text-yellow duration-700">
-            <a href="">Головна сторінка</a>
+            <Link to="/">Головна сторінка</Link>
           </li>
           <li className="text-xl text-white hover:text-yellow duration-700">
-            <a href="">Про нас</a>
+            <Link to="/aboutUs">Про нас</Link>
           </li>
           <li className="text-xl text-white hover:text-yellow duration-700">
-            <a href="">Лікарі</a>
+            <Link to="/doctors">Лікарі</Link>
           </li>
         </ul>
       </div>

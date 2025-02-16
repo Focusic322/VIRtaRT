@@ -59,7 +59,7 @@ export default function Footer() {
             />
           </div>
           <div className="pt-serif-bold grid items-center text-white">
-            <span className="text-xl">Підтримка 24 x 7</span>
+            <span className="text-xl">Підтримка 24 / 7 / 365</span>
             <span className="text-lg max-xss:text-sm">
               Завжди надамо допомогу
             </span>
@@ -98,7 +98,6 @@ export default function Footer() {
             />{" "}
             +380 67 165 10 94
           </a>
-          <span className="text-xl max-md:pt-2 max-md:pb-2">Графік роботи: 24 x 7</span>
         </div>
         <div className="grid items-center gap-6">
           <ul className="flex items-center gap-2 max-md:justify-center">

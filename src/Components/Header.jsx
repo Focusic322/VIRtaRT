@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="pt-10 pt-serif-regular">
       {open ? (
-        <div className="fixed w-full h-full top-0 left-0 flex items-center justify-center bg-darkBlue">
+        <div className="fixed z-40 w-full h-full top-0 left-0 flex items-center justify-center bg-darkBlue">
           <ul className="flex flex-col items-center gap-6">
             <li className="text-2xl text-white">
               <Link to="/">Головна сторінка</Link>
@@ -51,7 +51,7 @@ export default function Header() {
         <div className="flex items-center">
           <button
             onClick={handleClick}
-            className="hidden max-sm:grid pr-4 pt-2"
+            className="hidden max-sm:grid pr-4 pt-2 z-50"
           >
             <div
               className={
@@ -131,7 +131,7 @@ export default function Header() {
           <h2 className="text-darkBlue font-medium text-3xl max-lg:text-2xl max-xss:!text-xl">
             Центральна міська лікарня
           </h2>
-          <span className="text-darkBlue font-sans text-lg ">Якісь дані</span>
+          <span className="text-darkBlue font-sans text-lg ">Відділення інтервенційної радіології та реперфузійної терапії</span>
         </div>
         <div className="grid items-center gap-2">
           <a

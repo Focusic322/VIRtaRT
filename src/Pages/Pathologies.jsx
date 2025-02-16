@@ -36,7 +36,7 @@ export default function Pathologies() {
           <img
             src={PathologiesPhoto}
             alt="Фото наших лікарів"
-            className="h-full"
+            className="h-full max-xl:h-screen"
           />
         </div>
       </div>

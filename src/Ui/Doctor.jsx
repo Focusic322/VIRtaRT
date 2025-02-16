@@ -27,7 +27,7 @@ export default function Doctor({
           <img
             src={img}
             alt={`Фото лікаря`}
-            className=" w-[180px] h-[250px] rounded-sm  max-xl:w-[200px] max-md:!w-[200px] "
+            className=" w-[180px] h-[250px] rounded-sm  max-xl:w-[160px] max-md:!w-[200px] max-md:!h-[300px]"
           />
         </div>
         <div className="grid gap-2">
@@ -35,7 +35,7 @@ export default function Doctor({
           <h4 className="text-xl text-balance text-darkGray">{speciality}</h4>
           <span className="flex gap-2 text-darkGray text-lg max-md:justify-center">
             <img src={ExperienceLogo} alt="" className="w-4" />
-            {experience} роки досвіду
+            {experience} років досвіду
           </span>
         </div>
       </div>

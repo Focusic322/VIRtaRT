@@ -44,6 +44,9 @@ export default function Header() {
             <li className="text-2xl text-white">
               <Link to="/doctors">Лікарі</Link>
             </li>
+            <li className="text-2xl text-white">
+              <Link to="/pathologies">Патології</Link>
+            </li>
           </ul>
         </div>
       ) : null}
@@ -168,6 +171,9 @@ export default function Header() {
           </li>
           <li className="text-xl text-white hover:text-yellow duration-700">
             <Link to="/doctors">Лікарі</Link>
+          </li>
+          <li className="text-xl text-white hover:text-yellow duration-700">
+            <Link to="/pathologies">Патології</Link>
           </li>
         </ul>
       </div>

@@ -20,6 +20,25 @@ export default function Doctor({
         navigate(`/doctors/${id}`);
     };
 
+    function getExperienceText(experience) {
+      let lastDigit = experience % 10;
+      let lastTwoDigits = experience % 100;
+    
+      if (lastTwoDigits >= 11 && lastTwoDigits <= 19) {
+        return `${experience} років досвіду`;
+      }
+    
+      if (lastDigit === 1) {
+        return `${experience} рік досвіду`;
+      }
+    
+      if (lastDigit >= 2 && lastDigit <= 4) {
+        return `${experience} роки досвіду`;
+      }
+    
+      return `${experience} років досвіду`;
+    }
+
   return (
     <div className="">
       <div className="flex items-center gap-4 max-md:grid max-md:text-center">
@@ -35,7 +54,7 @@ export default function Doctor({
           <h4 className="text-xl text-balance text-darkGray">{speciality}</h4>
           <span className="flex gap-2 text-darkGray text-lg max-md:justify-center">
             <img src={ExperienceLogo} alt="" className="w-4" />
-            {experience} років досвіду
+            {getExperienceText(experience)}
           </span>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Services() {
       <div className="flex justify-center items-center text-center pb-6">
         <div className="max-w-2xl">
           <h3 className="text-darkBlue text-5xl max-md:text-4xl max-xss:!text-3xl pb-2">
-            Послуги, які ми <span className="text-yellow">надаємо</span>
+            Обстеження та лікувальні процедури які проводяться у <span className="text-yellow">відділенні</span>
           </h3>
           <p className="text-darkGray text-lg leading-relaxed max-xss:text-sm">
             Наше відділення оснащене сучасним обладнанням, що відповідає
@@ -40,7 +40,7 @@ export default function Services() {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="w-[300px] mx-auto hover:scale-95 duration-700">
+              <div className="w-[400px] mx-auto hover:scale-95 duration-700">
                 <Service title={service.title} img={service.img} id={service.id}/>
               </div>
             </SwiperSlide>

@@ -129,14 +129,14 @@ export default function Header() {
           </ul>
         </div>
       </div>
-      <div className="flex items-center justify-between pt-8 pb-4 max-sm:grid max-xss:justify-center pl-14 pr-14 max-xss:pl-7  max-xss:pr-7">
+      <div className="flex items-center justify-between pt-8 pb-4 max-md:grid max-md:text-center max-xss:justify-center pl-14 pr-14 max-xss:pl-7  max-xss:pr-7">
         <div>
           <h2 className="text-darkBlue font-medium text-3xl max-lg:text-2xl max-xss:!text-xl">
-            Центральна міська лікарня
+            Відділення інтервенційної радіології та реперфузійної терапії
           </h2>
-          <span className="text-darkBlue font-sans text-lg ">Відділення інтервенційної радіології та реперфузійної терапії</span>
+          <span className="text-darkBlue font-sans text-lg">Центральна міська лікарня</span>
         </div>
-        <div className="grid items-center gap-2">
+        <div className="grid items-center gap-2 max-md:justify-center">
           <a
             href="tel:+380975542595"
             className="flex items-center gap-2 text-darkBlue font-medium text-2xl max-lg:text-lg max-sm:pt-4 hover:opacity-70 duration-700"

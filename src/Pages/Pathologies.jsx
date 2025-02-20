@@ -29,7 +29,7 @@ export default function Pathologies() {
             <span>Інфекційний міокардит, перикардит, ендокардит</span>
             <span>Кардіоміопатії (ДКМП, ГКМП)</span>Гостра та хронічна серцева
             недостатність<span></span>
-            <span>Набуті вади серця;</span>
+            <span>Набуті вади серця</span>
           </div>
         </div>
         <div>

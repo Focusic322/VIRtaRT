@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 .pt-serif-regular {
     font-family: "PT Serif", serif;
     font-weight: 400;
@@ -57,8 +61,8 @@
   @media (max-width: 450px) {
     .custom-pagination .swiper-pagination-bullet,
     .custom-pagination__testimonials .swiper-pagination-bullet {
-      width: 8px;
-      height: 8px;
+      width: 10px;
+      height: 10px;
     }
   }
   

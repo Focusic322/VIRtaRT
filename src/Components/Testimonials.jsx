@@ -59,27 +59,6 @@ export default function Testimonials() {
                 Відділення працює цілодобово. Консультацію можна отримати безкоштовно. Кардіологи, які трудяться, мають великий досвід роботи, високу кваліфікацію, чуйність. Найкращим вважається Роман Овсійчук, він курує відділення. Також тут можна звертатися до Ірини Данильчук, Галини Мовчан, Ілони Бондарук, Ігоря Кривка, Олександра Мельника, Романа Кушніра.Саме тут надається безкоштовна допомога при гострому інфаркті міокарда. Жителі міста Рівне можуть безкоштовно планово зробити коронографію та стентування."
             />
           </SwiperSlide>
-          <SwiperSlide key={4}>
-            <Testimonial
-              title="Амвросій Метлинський"
-              img={avatarLogo}
-              testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis lacinia tristique. Vivamus fermentum auctor arcu eu tempor. Sed dignissim nec magna eu tempor. Suspendisse egestas elementum urna a condimentum. Donec in urna eu leo dictum posuere eget non justo. Praesent fringilla, felis quis molestie venenatis, sem orci varius arcu, vel rhoncus nisl risus id ipsum. Vestibulum blandit est quis mi porttitor, eu tincidunt risus pellentesque. Fusce ante erat, imperdiet sagittis accumsan eget, aliquet id leo. Aenean placerat viverra metus, vel imperdiet lectus aliquet et. Nam mollis mi gravida maximus hendrerit."
-            />
-          </SwiperSlide>
-          <SwiperSlide key={5}>
-            <Testimonial
-              title="Амвросій Метлинський"
-              img={avatarLogo}
-              testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis lacinia tristique. Vivamus fermentum auctor arcu eu tempor. Sed dignissim nec magna eu tempor. Suspendisse egestas elementum urna a condimentum. Donec in urna eu leo dictum posuere eget non justo. Praesent fringilla, felis quis molestie venenatis, sem orci varius arcu, vel rhoncus nisl risus id ipsum. Vestibulum blandit est quis mi porttitor, eu tincidunt risus pellentesque. Fusce ante erat, imperdiet sagittis accumsan eget, aliquet id leo. Aenean placerat viverra metus, vel imperdiet lectus aliquet et. Nam mollis mi gravida maximus hendrerit."
-            />
-          </SwiperSlide>
-          <SwiperSlide key={6}>
-            <Testimonial
-              title="Амвросій Метлинський"
-              img={avatarLogo}
-              testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis lacinia tristique. Vivamus fermentum auctor arcu eu tempor. Sed dignissim nec magna eu tempor. Suspendisse egestas elementum urna a condimentum. Donec in urna eu leo dictum posuere eget non justo. Praesent fringilla, felis quis molestie venenatis, sem orci varius arcu, vel rhoncus nisl risus id ipsum. Vestibulum blandit est quis mi porttitor, eu tincidunt risus pellentesque. Fusce ante erat, imperdiet sagittis accumsan eget, aliquet id leo. Aenean placerat viverra metus, vel imperdiet lectus aliquet et. Nam mollis mi gravida maximus hendrerit."
-            />
-          </SwiperSlide>
         </Swiper>
         <div className="custom-pagination__testimonials flex justify-center gap-2 mt-4"></div>
       </div>

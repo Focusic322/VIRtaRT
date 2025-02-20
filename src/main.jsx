@@ -7,6 +7,7 @@ import Doctors from './Pages/Doctors.jsx'
 import DoctorInformation from './Components/DoctorInformation.jsx'
 import ServiceInformation from './Components/ServiceInformation.jsx'
 import Pathologies from './Pages/Pathologies.jsx'
+import ShowInfo from './Components/ShowInfo.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/pathologies' element={<Pathologies />}></Route>
       <Route path='/doctors/:id' element={<DoctorInformation />} />
       <Route path='/service/:id' element={<ServiceInformation />} />
+      <Route path="/service-details/:id" element={<ShowInfo />} />
       <Route path='*' element={<App />}></Route>
     </Routes>
   </BrowserRouter>
